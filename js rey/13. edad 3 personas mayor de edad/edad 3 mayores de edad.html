@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area rectangulo mayor </title>
+</head>
+<body>
+    <script>
+       let edadUno;
+        let edadDos;
+        let edadTres;
+        let yearBeginUno;
+        let yaerBeginDos;
+        let yearBeginTres;
+        let yearNow ;
+        
+        yearNow= new Date().getFullYear();
+        yearBeginUno= parseInt(prompt("Digite el año de nacimiento de la primera persona por favor "));
+        yaerBeginDos= parseInt(prompt("Digite el año de nacimiento de la segunda persona por favor "));
+        yearBeginTres= parseInt(prompt("Digite el año de nacimiento de la tercera persona por favor "));
+
+        edadUno = yearNow - yearBeginUno;
+        edadDos = yearNow - yaerBeginDos;
+        edadTres = yearNow - yearBeginTres;
+        
+        if (edadUno > 17){
+            console.log("la primera persona es mayor de edad");
+        }
+        else{
+                console.log("la primera persona es menor de edad");
+            }
+
+            if (edadDos > 17){
+            console.log("la segunda persona es mayor de edad");
+        }
+        else{
+                console.log("la segunda persona es menor de edad");
+            }
+
+            if (edadTres> 17){
+            console.log("la tercera persona es mayor de edad");
+        }
+        else{
+                console.log("la tercera persona es menor de edad");
+            }
+    </script>
+</body>
+</html>

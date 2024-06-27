@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salario </title>
+</head>
+<body>
+    <script>
+       let salario;
+        let pagoTotal;
+        let valorDia;
+        let salud;
+        let pension;
+        let arl;
+        let deducibles;
+        let renta;
+        let salrioMinimo;
+        let subsidioTransporte;
+
+       salario= parseInt(prompt("ingrese su salaio por favor "));
+
+       salarioMinimo= 1300000;
+        salud = salario * 0.12;
+        pension = salario * 0.16;
+        arl = salario * 0.052;
+        deducibles= salud + pension + arl
+        if (salario > 2*salarioMinimo){
+            console.log("no recible subsidio de transporte");
+        }
+        else{subsidioTransporte = 114000
+                console.log("recible subsidio de transporte");
+                 }
+
+            if (salario > 4 * salarioMinimo){renta= salario *0.04
+            console.log("declara renta") 
+           
+        }
+        else{ renta = 0 
+                console.log("no declara renta");
+                
+            }
+console.log ( "el salario es="+salario+",la salud es= "+salud+", la pension es="+pension+"")
+ console.log(" el arl es= "+arl+", los deducibles son="+deducibles+", el pago total es="+pagoTotal+" ") 
+ 
+
+    </script>
+</body>
+</html>

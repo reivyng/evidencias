@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edad y promedio de tres personas</title>
+</head>
+<body>
+    <script>
+        let edadUno;
+        let edadDos;
+        let edadTres;
+        let suma;
+        let promedio;
+        let yearNow;
+        let yearBeginUno;
+        let yaerBeginDos;
+        let yearBeginTres;
+
+        
+        yearNow= prompt("Digite el año actual por favor ");
+        yearBeginUno= prompt("Digite el año de nacimiento de la primera persona por favor ");
+        yaerBeginDos= prompt("Digite el año de nacimiento de la segunda persona por favor ");
+        yearBeginTres= prompt("Digite el año de nacimiento de la tercera persona por favor ");
+
+        edadUno = yearNow - yearBeginUno;
+        edadDos = yearNow - yaerBeginDos;
+        edadTres = yearNow - yearBeginTres;
+        suma = edadUno + edadDos + edadTres;
+        promedio = suma/3;
+
+        console.log("la edad de la persona uno es="+edadUno+"\n");
+        console.log("la edad de la persona dos es="+edadDos+"\n");
+        console.log("la edad de la persona tres es="+edadTres+"\n");
+        console.log("el promedio de las tres edades son es="+promedio+"\n");
+
+    </script>
+</body>
+</html>

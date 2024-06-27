@@ -1,0 +1,338 @@
+body{
+    background: linear-gradient(20deg, rgb(85, 203, 85), #4df3f3);
+}
+#container{
+    width: 1874px;
+    height: 750px;
+    background-color: white;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+.num{
+    margin-left: 88px;
+    margin-top: -95px;
+    font-size: 8px;
+    position: absolute;
+}
+.primero{
+    margin: 20px 20px -18px 20px;
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1200px;
+}
+.segundo{
+    margin: 20px 20px -18px 20px;
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1200px;
+}
+.celda{
+    float: left;
+    border: 1px solid #000;
+    height: 100px;
+    margin: 0px 1px 0px 1px;;
+}
+.celda:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.4, 1.4);
+}
+.celdaa{
+    float: left;
+    height: 100px;
+    font-size: 13px;
+}
+li{
+    list-style: none;
+    margin-left: 18px;
+}
+.oct{
+    margin-top: 30px;
+}
+
+.he{
+    margin-left: 1533px;
+}
+.ce{
+    margin-left: 307px;
+}
+.b{
+    margin-left: 1021px;
+}
+
+.naranja{
+    background: linear-gradient(20deg, rgb(243, 179, 61), #ffd8d8);
+}
+.rosa{
+    background: linear-gradient(20deg, rgb(231, 91, 114), #febcbc);
+}
+.rojo{
+    background: linear-gradient(20deg, rgb(204, 39, 39), #eacaca);
+}
+.azul-claro{
+    background: linear-gradient(20deg, rgb(50, 179, 179), #a4f0f0);
+}
+.azul-oscuro{
+    background: linear-gradient(20deg, rgb(29, 29, 184), #42f5f5);
+}
+.verde{
+    background: linear-gradient(20deg, rgb(3, 101, 3), #4df3f3);
+}
+.verde-claro{
+    background: linear-gradient(20deg,rgb(141, 199, 54), #51e6e6);
+}
+.morado{
+    background: linear-gradient(20deg, rgb(163, 46, 236), #d1ffff);
+}
+.verde-raro{
+    background: linear-gradient(20deg, rgb(50, 214, 192), #d1ffff); 
+}
+.rosa-claro{
+    background: linear-gradient(20deg, rgb(235, 116, 136), #d1ffff);
+}
+.color{
+    color: aqua;
+}
+.rosaa{
+    color: rgb(235, 69, 96);
+}
+.amarillo{
+    color: rgb(223, 223, 114);
+}
+.negro{
+    background-color: black;
+}
+.blanco{
+    background-color: white;
+}
+.azul{
+    background-color: aqua;
+}
+.rojo1{
+    color: red;
+}
+.amar{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-shadow: 6px 6px #4746467c;      
+}
+h3{
+    text-align: left;
+    margin: auto;
+    font-size: 12px;
+    margin-top: -2px;
+    margin-left: 2px;
+}
+h4{
+    text-align: center;
+    margin-top: -22px;
+    font-size: 12px;
+    margin-right: 54px;
+}
+h5{
+    text-align: right;
+    margin: auto;
+    font-size: 8px;
+    margin-top: -106px;
+    margin-right: 2px;
+}
+p{
+    margin-left: 4px;
+}
+.reduccion{
+    font-size:x-large;
+    margin-top: 18px;
+}
+.tamano{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border: 1px;
+    margin-top: auto;
+    left: 260px;
+    top: 88px;
+}
+#containe{  
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.primer{
+    width: 160px;
+    height: 46px;
+    margin-bottom: 2px;
+    padding: 2px;
+    display: flex;
+}
+.primer1{
+    width: 100px;
+    height: 46px;
+    padding: 2px;
+    display: flex;
+}
+.cuadro{  
+    width: 40px;
+    height: 42px;
+    padding: 2px;
+    position: absolute;
+}
+.dentro{
+    width: 36px;
+    height: 38px;
+    position: absolute;
+}
+.letra{
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    text-shadow: none;
+}
+.texto{
+    margin-top: 10px;
+    margin-left: 48px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+.blancoo{
+    color: white;
+}
+#contenedor{
+    margin-left: 440px;
+}
+.principal{
+    position: absolute;
+    width: 1400px;
+}
+.celdaaa {
+    float: left;
+    height: 110px;
+    margin: 30px 1px 0px 50px;
+}
+.re {
+    border: 1px solid #000;
+    height: 55px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+}
+.fa {
+    border: 1px solid #000;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 130px;
+    border-radius: 10px;
+    position: absolute;
+}
+.rey {
+    text-align: center;
+    margin-top: -9px;
+    font-size: 16px;
+}
+.ra {
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 90px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+.ra::before,
+.ra::after {
+  border-top: .2rem solid black;
+  content: "";
+  display: inline-block;
+  margin: 0 1rem;
+  transform: translateY(-3px);
+  width: 130px;
+}
+.me {
+    border: 1px solid #000;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 260px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+.fab {
+    border: 1px solid #000;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 390px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+.ram {
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+.ram::before,
+.ram::after {
+  border-top: .2rem solid black;
+  content: "";
+  display: inline-block;
+  margin: 0 1rem;
+  transform: translateY(-3px);
+  width: 275px;
+}
+.med {
+    border: 1px solid #000;
+    height: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.ma {
+    border: 1px solid #000;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 260px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+.ne{
+    border: 1px solid #000; 
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 80px;
+    position: absolute;
+}
+.krey {
+    border: 1px solid #000;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 550px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+}
+.kre {
+    border: 1px solid #000;
+    height: 55px;
+    margin-top: 55px;
+    margin-left: 430px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+}
+.no{
+    visibility: hidden;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mayor de edad</title>
+</head>
+<body>
+    <script>
+        let edad;
+        let yearNow;
+        let yearBegin;
+        
+        yearNow= parseInt(prompt("Digite el año actual por favor "));
+        yearBegin= parseInt(prompt("Digite el año de nacimiento de la primera persona por favor "));
+
+        edad = yearNow - yearBegin
+
+
+        if (edad>17){
+            console.log("es mayor de edad");
+        }
+        else{
+                console.log("es menor de edad");
+            }
+
+    </script>
+</body>
+</html>
