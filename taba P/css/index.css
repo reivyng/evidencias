@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(20deg, rgb(85, 203, 85), #4df3f3);
+}
+#principal{
+    width: 1874px;
+    height: 700px;
+    background-color: aliceblue;
+    margin-left: 12px;
+}
+#secundario{
+    width: 1562px;
+    height: 200px;
+    background-color: aliceblue;
+    margin-left: 324px;
+    margin-top: 20px;
+}
+.celdas{
+    float: left;
+    display: block;
+    width: 58px;
+    height: 52px;
+    margin: 2px 2px 2px 2px;
+    border: solid 1px #000;
+    padding: 20px;
+}
+.celdas:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.2,1.2);
+}
+.espacio{
+    float: left;
+    display: block;
+    width: 1618px;
+    height: 52px;
+    margin: 2px 2px 2px 2px;
+    padding: 20px;
+}
+.espacio1{
+    float: left;
+    display: block;
+    width: 996px;
+    height: 18px;
+    margin: 2px 2px 2px 2px;
+    padding: 20px;
+}
+.naranja{
+    background: linear-gradient(20deg, rgb(243, 179, 61), #ffd8d8);
+}
+.rosa{
+    background: linear-gradient(20deg, rgb(231, 91, 114), #febcbc);
+}
+.rojo{
+    background: linear-gradient(20deg, rgb(204, 39, 39), #eacaca);
+}
+.azul-claro{
+    background: linear-gradient(20deg, rgb(50, 179, 179), #a4f0f0);
+}
+.azul-oscuro{
+    background: linear-gradient(20deg, rgb(29, 29, 184), #42f5f5);
+}
+.verde{
+    background: linear-gradient(20deg, rgb(3, 101, 3), #4df3f3);
+}
+.verde-claro{
+    background: linear-gradient(20deg,rgb(91, 144, 12), #51e6e6);
+}
+.morado{
+    background: linear-gradient(20deg, rgb(163, 46, 236), #d1ffff);
+}
+.verde-raro{
+    background: linear-gradient(20deg, rgb(50, 214, 192), #d1ffff); 
+}
+.rosa-claro{
+    background: linear-gradient(20deg, rgb(235, 116, 136), #d1ffff);
+}
+.color{
+    color: aqua;
+}
+.rosaa{
+    color: rgb(235, 69, 96);
+}
+.amarillo{
+    color: rgb(223, 223, 114);
+}
+
+.filas1{
+    margin-top: 50px;
+    display: block;
+    margin-left: 312px;
+}
+.filas2{
+    margin-top: 50px;
+    display: block;
+    margin-left: 312px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-shadow: 6px 6px #4746467c;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: -28px;
+    font-weight: 400;
+}
+h3{
+    text-align: left;
+    margin: auto;
+    font-size: 10px;
+    margin-top: -12px;
+    margin-left: -10px;
+}
+.reduccion{
+font-size:x-large;
+}
