@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area rectangulo mayor </title>
+</head>
+<body>
+    <script>
+        let areaRectangulo1;
+        let areaRectangulo2;
+        let alturaUno;
+        let alturaDos;
+        let baseUno;
+        let baseDos;
+        
+       alturaUno= parseInt(prompt("Digite la altura del primer rectangulo por favor "));
+       alturaDos= parseInt(prompt("Digite la altura del segundo rectangulo por favor "));
+       baseUno= parseInt(prompt("Digite la base del primer rectangulo por favor "));
+       baseDos= parseInt(prompt("Digite la base del segundo rectangulo por favor "));
+       
+        areaRectangulo1 = alturaUno * baseUno;
+        areaRectangulo2 = alturaDos * baseDos
+
+        if (areaRectangulo1==areaRectangulo2){
+            console.log("ambos son iguales,area del primer rectangulo=("+areaRectangulo1+"), area del segundo rectangulo ("+areaRectangulo2+")");
+        }
+        else{
+            if (areaRectangulo1 > areaRectangulo2){
+                console.log("area primer rectangulo= "+areaRectangulo1+" ");
+            }
+            else{
+         console.log("area segundo rectangulo= "+areaRectangulo2+" ");
+        }
+        
+        }
+    </script>
+</body>
+</html>

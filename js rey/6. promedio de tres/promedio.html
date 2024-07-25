@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de tres personas</title>
+</head>
+<body>
+    <script>
+        let notaUno;
+        let notaDos;
+        let notaTres;
+        let suma;
+        let promedio;
+
+        notaUno= prompt("Digite la nota de la primera persona por favor ");
+        notaDos= prompt("Digite la nota de la segunda persona por favor ");
+        notaTres= prompt("Digite la nota de la tercera persona por favor");
+        
+        suma = parseInt(notaUno) + parseInt(notaDos) + parseInt(notaTres);
+        promedio = suma/3
+
+        console.log("El promedio es="+promedio+"\n");
+
+    </script>
+</body>
+</html>
